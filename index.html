@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend-developer portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="wrapper" class="wrapper"></div>
+    <header>
+        <div class="container">
+            <div class="header-nav">
+                <!-- Header logo -->
+                <a href="#!" class="logo">Max</a>
+                <!-- Header nav -->
+                <nav id="menu">
+                    <ul>
+                        <li class="nav-item">
+                            <a href="/" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contacts" class="nav-link">Contacts</a>
+                        </li>
+                    </ul>
+                    <button id="mobile-button">
+                        <img src="./img/mobile_menu_open.svg" alt="Nav button" id="mobile-button-img">
+                    </button>
+                </nav>
+            
+            
+            </div>
+            <!-- Header content -->
+            <div class="header-row">
+                <div class="header-txt">
+                    <h1>Max Spencer</h1>
+                   <h2>Front-Еnd developer</h2>
+                   <p>Innovative Front-end developer with 3+ years experience building and maintaining responsive websites in the recruiting industry. Proficient in HTML, CSS, JavaScript; plus modern libraries and frameworks. Passionate about usability and possess working knowledge about adobe photishop.</p>
+                </div>
+                <div class="header-image">
+                    <picture>
+                        <!-- change photo on mobile version -->
+                        <source media="(max-width:768px)" srcset="./img/man-mobile.png"> 
+                        <img src="./img/man.png" alt="">
+                    </picture>   
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services -->
+    <section id="services">
+        <div class="container">
+            <div class="services-row">
+                <div class="services-item">
+                    <img src="./img/icon_design.svg" alt="">
+                    <h3>UI/UX Design</h3>
+                    <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                </div>
+                <div class="services-item">
+                    <img src="./img/icon_develop.svg" alt="">
+                    <h3>Development</h3>
+                    <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                </div>
+                <div class="services-item">
+                    <img src="./img/icon_testing.svg" alt="">
+                    <h3>software testing</h3>
+                   <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+   <section id="portfolio">
+    <div class="container">
+        <div class="section-title">Portfolio</div>
+        <div class="portfolio-project">
+            <img src="./img/project1.jpg" alt="Logoipsum">
+            <a href="https://local-membership-template.webflow.io">Logoipsum</a>
+        </div>
+        <div class="portfolio-project">
+            <img src="./img/project2.jpg" alt="">
+            <a href="https://www.ghostautonomy.com">Freedom behind the wheel</a>
+        </div>
+        <div class="portfolio-project">
+            <img src="./img/project3.jpg" alt="">
+            <a href="https://okdork.com/">OkDork by Noah Kagan</a>
+        </div>
+    </div>
+   </section>
+   <!-- Contacts -->
+   <footer id="contacts">
+        <div class="container">
+            <div class="section-title">Contacts</div>
+            <div class="contacts-content">
+                <p class="contacts-text">Want to know more or just chat?<br /> You are welcome!</p> 
+                <a href="#!" alt="" class="btn">Send Message</a>
+                <div class="contacts-social">
+                    <a href="#!" alt=""><img src="./img/LinkedIn.svg" alt="LinkedIn"></a>
+                    <a href="#!" alt=""><img src="./img/Instargam.svg" alt="Instargam"></a>
+                    <a href="#!" alt=""><img src="./img/Dribble.svg" alt="Dribble"></a>
+                </div>
+                <p class="social-text">Like me on LinkedIn, Instagram, Dribble</p>
+            </div>
+        </div>
+   </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
